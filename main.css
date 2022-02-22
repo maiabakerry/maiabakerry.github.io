@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+.bannermain{
+	background-image: url("men.PNG");
+	height: 500px;
+	background-size: cover;
+}
+@font-face{
+	
+src: url("SVN-Lobster.ttf");
+	font-family: lobster;
+
+}	
+#aboutus{
+	margin-top: 50px;
+}
+#aboutus .hinhanh img{ 
+	height: 300px;
+	
+}
+#aboutus{
+	display: grid;
+	grid-template-columns: 40% 60%;
+}
+#aboutus .hinhanh{
+	
+	text-align: center;
+	padding: 10px;
+}
+#aboutus .noidung{
+	padding: 50px;
+	
+}
+#aboutus .noidung h2{
+	padding-bottom: 20px;
+	text-align: center;
+	font-family: Lobster;
+	
+}
+.button{
+	background: transparent;
+	border: none;
+	padding: 5px 10px;
+	border: 1.5px solid #bd3c48;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+.combo2{
+	margin-top: 50px;
+	text-align: center;
+}
+.combo2 h2{
+	font-family: Lobster;
+}
+.combo2 p{
+	margin-top: 10px;
+}
+#combo3{
+	margin-top: 50px;
+}
+#combo3 .hinhanh img{ 
+	height: 300px;
+	
+}
+#combo3{
+	display: grid;
+	grid-template-columns: 60% 40%;
+}
+#combo3 .hinhanh{
+	
+	text-align: center;
+	padding: 10px;
+}
+#aboutus .noidung{
+	padding-top: 50px;
+	
+}
+#combo3 .noidung h2{
+	padding-bottom: 20px;
+	text-align: center;
+	font-family: Lobster;
+	padding: 20px;
+}
+#combo .noidung p{
+	text-align:center;
+}
+.chan{
+	background-color:   black;
+	margin-top: 50px;
+}
+.footer{
+	padding-top: 70px;
+}
+.footer p,i {
+	color: white;
+	padding: 8px
+}
+.ft1 a{
+	padding: 15px;
+}
+.footer-list{
+	padding-top: 70px;
+}
+.footerlist ul{
+	list-style: none;
+	
+}
+.ftlist ul{
+	list-style: none;
+	
+}
+.ftlist2 ul{
+	list-style: none;
+	
+}
+.footer-list li a ,h5{
+	color: white;
+}
+.ftlist li, a, h5{
+	color: white;
+	
+}
+.ftlist2 li, a, h5{
+	color: white;
+}
+
+
+
